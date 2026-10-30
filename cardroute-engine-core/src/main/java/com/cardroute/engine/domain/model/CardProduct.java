@@ -53,5 +53,3 @@ public record CardProduct(
         rules = rules != null ? Collections.unmodifiableList(rules) : Collections.emptyList();
     }
 }
-
-o
