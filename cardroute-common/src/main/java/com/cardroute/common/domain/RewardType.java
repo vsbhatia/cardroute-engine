@@ -18,3 +18,4 @@ public enum RewardType {
     REWARD_POINTS,
     AIR_MILES
 }
+

@@ -43,3 +43,4 @@ public interface LedgerPersistencePort {
         Instant recordedAt
     );
 }
+

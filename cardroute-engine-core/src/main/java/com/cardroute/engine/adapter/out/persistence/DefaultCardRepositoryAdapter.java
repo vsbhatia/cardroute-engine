@@ -142,3 +142,4 @@ public class DefaultCardRepositoryAdapter implements CardRepositoryPort {
         cardCatalog.put(tataNeu.id(), tataNeu);
     }
 }
+

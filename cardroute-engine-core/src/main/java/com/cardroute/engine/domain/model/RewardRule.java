@@ -51,3 +51,4 @@ public record RewardRule(
         return targetMccs.contains(mcc);
     }
 }
+

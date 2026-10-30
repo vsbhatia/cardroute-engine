@@ -51,3 +51,4 @@ public record MerchantCategoryCode(String code) {
         return new MerchantCategoryCode(code);
     }
 }
+

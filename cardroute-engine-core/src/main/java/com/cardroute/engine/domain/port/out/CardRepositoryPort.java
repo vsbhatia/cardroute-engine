@@ -38,3 +38,4 @@ public interface CardRepositoryPort {
      */
     List<CardProduct> findCandidateCards(List<String> cardIds, PaymentInstrumentType instrumentType);
 }
+

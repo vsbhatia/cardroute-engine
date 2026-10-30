@@ -45,3 +45,4 @@ public record SpendCapAllocation(
         return new SpendCapAllocation(BigDecimal.ZERO, transactionAmount, remainingCap, remainingCap.compareTo(BigDecimal.ZERO) <= 0);
     }
 }
+

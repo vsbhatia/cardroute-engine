@@ -63,3 +63,4 @@ return {
     string.format("%.4f", acceleratedAmount),
     string.format("%.4f", overflowAmount)
 }
+

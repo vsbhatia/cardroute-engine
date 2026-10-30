@@ -71,3 +71,4 @@ public class PostgreSqlLedgerAdapter implements LedgerPersistencePort {
         log.debug("Persisted ledger record for transactionId={} cardId={}", transactionId, cardId);
     }
 }
+

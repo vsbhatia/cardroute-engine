@@ -38,3 +38,4 @@ public class RedisScriptConfig {
         return (RedisScript<List<String>>) (RedisScript<?>) script;
     }
 }
+

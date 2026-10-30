@@ -21,3 +21,4 @@ public class CardNotFoundException extends CardRouteException {
         super(ErrorCode.CARD_NOT_FOUND, "Card product not found for id: " + cardId, Map.of("cardId", cardId));
     }
 }
+

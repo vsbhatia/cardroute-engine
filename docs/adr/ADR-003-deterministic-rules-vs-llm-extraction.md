@@ -57,3 +57,4 @@ We select **Option 3: Strict Architectural Decoupling (Offline AI Ingestion with
 ## Consequences
 *   **Positive**: Real-time transaction evaluation runs at sub-15ms latency with 100% mathematical accuracy. High-level AI automation is leveraged where it belongs: offline document parsing.
 *   **Negative**: Policy updates are not instantaneous; they follow an offline compilation and verification workflow before publishing to the active engine registry.
+

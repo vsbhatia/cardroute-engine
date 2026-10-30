@@ -96,3 +96,4 @@ Modules and packages are organized strictly into domain, application, and adapte
 ### 3.6. Security and Data Leakage Prevention (DLP)
 *   Primary Account Numbers (PAN), CVVs, passwords, and sensitive cardholder tokens must never be logged to STDOUT or persisted in unmasked formats.
 *   All public API endpoints must enforce Jakarta Bean Validation constraints (`@Valid`, `@NotNull`, `@Positive`, `@Pattern`).
+

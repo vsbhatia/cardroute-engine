@@ -29,3 +29,4 @@ public interface CardSpendLedgerRepository extends JpaRepository<CardSpendLedger
 
     List<CardSpendLedgerEntity> findByUserId(String userId);
 }
+

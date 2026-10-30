@@ -187,3 +187,4 @@ class TransactionEvaluationServiceIntegrationTest extends AbstractIntegrationTes
             .isEqualTo(20);
     }
 }
+

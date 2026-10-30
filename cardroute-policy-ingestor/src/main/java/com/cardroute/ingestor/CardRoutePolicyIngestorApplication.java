@@ -24,3 +24,4 @@ public class CardRoutePolicyIngestorApplication {
         SpringApplication.run(CardRoutePolicyIngestorApplication.class, args);
     }
 }
+

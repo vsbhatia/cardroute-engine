@@ -25,3 +25,4 @@ public class InvalidTransactionException extends CardRouteException {
         super(ErrorCode.INVALID_TRANSACTION_PAYLOAD, message, details);
     }
 }
+

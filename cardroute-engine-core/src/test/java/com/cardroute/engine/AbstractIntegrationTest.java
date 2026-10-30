@@ -51,3 +51,4 @@ public abstract class AbstractIntegrationTest {
         registry.add("spring.data.redis.port", () -> redis.getMappedPort(6379));
     }
 }
+

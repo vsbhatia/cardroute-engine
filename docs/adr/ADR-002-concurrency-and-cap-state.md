@@ -53,3 +53,4 @@ We select **Option 4: Redis Atomic Lua Scripting with Asynchronous PostgreSQL Pe
 ## Consequences
 *   **Positive**: Zero race conditions, zero over-allocation of accelerated reward caps, and sub-2ms cap deduction latency.
 *   **Negative**: Introduces eventual consistency between the hot-path Redis cache and the PostgreSQL relational audit ledger. Managed via periodic reconciliation workers comparing Redis balances with PostgreSQL ledger aggregates.
+

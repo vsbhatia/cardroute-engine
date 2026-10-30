@@ -20,3 +20,4 @@ public enum PaymentInstrumentType {
     UPI_CREDIT_LINKED,
     DEBIT_CARD
 }
+

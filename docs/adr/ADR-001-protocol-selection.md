@@ -46,3 +46,4 @@ Benchmark evaluations between JSON (Jackson) and Protocol Buffers under syntheti
 ## Consequences
 *   **Positive**: Meets the sub-15ms internal SLA with headroom for complex multi-card evaluations. Simplifies third-party integration via OpenAPI-compliant REST.
 *   **Negative**: Requires maintaining dual entrypoint adapters (`TransactionEvaluationController` for REST and `TransactionEvaluationGrpcService` for gRPC) delegating to the same domain use-case port.
+

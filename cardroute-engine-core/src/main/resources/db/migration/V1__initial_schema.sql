@@ -18,3 +18,4 @@ CREATE TABLE IF NOT EXISTS card_spend_ledger (
 CREATE INDEX IF NOT EXISTS idx_ledger_card_billing ON card_spend_ledger(card_id, billing_cycle);
 CREATE INDEX IF NOT EXISTS idx_ledger_user_id ON card_spend_ledger(user_id);
 CREATE INDEX IF NOT EXISTS idx_ledger_recorded_at ON card_spend_ledger(recorded_at);
+

@@ -19,3 +19,4 @@ public enum Currency {
     EUR,
     GBP
 }
+

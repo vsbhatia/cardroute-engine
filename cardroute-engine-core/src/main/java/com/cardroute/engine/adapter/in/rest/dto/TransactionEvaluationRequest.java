@@ -60,3 +60,4 @@ public record TransactionEvaluationRequest(
     @NotEmpty(message = "candidateCardIds must contain at least one card ID")
     List<String> candidateCardIds
 ) {}
+

@@ -24,3 +24,4 @@ public class CardRouteEngineApplication {
         SpringApplication.run(CardRouteEngineApplication.class, args);
     }
 }
+
